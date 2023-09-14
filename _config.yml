@@ -1,8 +1,8 @@
 baseurl: "/kitron" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com or  https://Dizerjk.netlify.com
 title: "KiTRON GREEN INITIATIVES"
-email: "themefisher@gmail.com"
-phone: "+21 123 456 5523"
+email: "kitrongreeninitiatives@gmail.com"
+phone: "+234 903 277 2384"
 address: "9567 Turner Trace Apt. 466 North Willie, BC C3G8A4"
 author: KiTRON GREEN INITIATIVES
 description: >- # this means to ignore newlines
@@ -12,7 +12,7 @@ logo_icon: "/assets/images/logo.png"
 # contact form action
 contact_form_action: "#" # works with https://fomrspree.io
 mailchimp_list: "https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=342411fb35"
-footer_content: "Lorem ipsum dolor amet consectetur adipielit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam."
+footer_content: "Kitron Green Initiatives is a dynamic nonprofit organization committed to addressing the most critical environmental and sustainability challenges of our time. Established in [Year], our journey has been one of dedication, innovation, and collaboration.  "
 copyright: "KGI. &copy; 2023 All Right Reserved"
 # page header default image
 cover_image: "/assets/images/bg/about-bg.jpg"
@@ -32,18 +32,22 @@ social:
   - name: facebook
     icon: "ti-facebook"
     link: "#"
+    color: 	1877F2
 
   - name: twitter
     icon: "ti-twitter-alt"
     link: "#"
+    color: 	00acee
 
   - name: linkedin
     icon: "ti-linkedin"
     link: "#"
+    color: 	0072b1
 
-  - name: pinterest
-    icon: "ti-pinterest"
+  - name: Instagram
+    icon: "fab fa-instagram"
     link: "#"
+    color: 	C13584
 
 # Build settings
 permalink: "/:title"

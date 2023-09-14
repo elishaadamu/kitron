@@ -7,18 +7,18 @@
 				<div class="footer-widget  mb-5 mb-lg-0">
 					<h4 class="font-weight-bold text-white mb-3">About Us</h4>
 					{{site.footer_content | markdownify}}
-
+					<a href="./about.html" style="color: #adaead;">See more</a>
 					<ul class="list-inline socials-links">
 						{% for social in site.social %}
 						<li class="list-inline-item mb-2">
-							<a target="_blank" href="{{social.link}}" class="active"><i class="{{social.icon}}"></i></a>
+							<a target="_blank" href="{{social.link}}" class="active" style="background-color: #{{social.color}}; border-color: #{{social.color}}; "><i class="{{social.icon}}"></i></a>
 						</li>
 						{% endfor %}
 					</ul>
 				</div>
 			</div>
 
-			<div class="col-lg-3 ml-lg-auto mb-5 mb-lg-0 col-md-6">
+			<div class="col-lg-2 ml-lg-auto mb-5 mb-lg-0 col-md-6">
 				<div class="footer-widget">
 					<h4 class="text-white mb-3">Navigation</h4>
 
@@ -29,25 +29,23 @@
 					</ul>
 				</div>
 			</div>		
-			<div class="col-lg-2 col-md-6">
+			<div class="col-lg-4 col-md-6">
 				<div class="footer-widget  mb-5 mb-lg-0">
 					<h4 class="text-white mb-3">Services</h4>
 					<ul class="list-unstyled lh-38">
-						<li><a href="#">Brand Design</a></li>
-						<li><a href="#">seo & marketing</a></li>
-						<li><a href="#">creative design</a></li>
-						<li><a href="#">photography</a></li>
-						<li><a href="#">print design</a></li>
+						<li>Research and Development</li>
+						<li>Trainings and Capacity-building</li>
+						<li>Project Design and Implementation</li>						
 					</ul>
 				</div>
 			</div>		
-			<div class="col-lg-3 col-md-6">
+			<div class="col-lg-2 col-md-6">
 				<div class="footer-widget">
 					<h4 class="text-white mb-3">Contact Info</h4>
 					<ul class="list-unstyled lh-38">
 						<li>{{site.address}}</li>
 						<li><a href="tel:{{site.phone}}">{{site.phone}}</a></li>
-						<li><a href="mailto:{{site.email}}">{{site.email}}</a></li>
+						<li style="font-size: 13px;"><a href="mailto:{{site.email}}">{{site.email}}</a></li>
 					</ul>
 				</div>
 			</div>		
