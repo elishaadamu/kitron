@@ -2,27 +2,28 @@
 hero_area:
   background_image : "/assets/images/bg/IMG_20230831_112202.jpg"
   subtitle: "MY NAME IS Jessica Alba"
-  title : "I am a creative <br>UI/UX Designer <br>from London."
-  content : "Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
+  title : "Welcome to Kitron Green Initiatives"
+  content : "At Kitron Green Initiatives, we are on a mission to make a positive impact on our planet by promoting sustainability, renewable energy adoption, and environmental education. Founded on the principles of cooperation and shared responsibility....
+"
   image : "/assets/images/banner/banner-img-.png"
   button:
     enable : true
-    label : "contact me"
-    link : "/contact"
+    label : "See more"
+    link : "/initiatives"
 
 ########################### Service ##############################
 services:
-- title : "Brand Design"
-  icon : "ti-ruler-pencil"
-  content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
+- title : "Research and Development"
+  icon : "fas fa-search-plus"
+  content : "KiTRON GREEN INITIATIVES drive innovative Research and Development efforts aimed at sustainable and eco-friendly solutions, fostering a greener future for our planet."
 
-- title : "Seo & Marketing"
-  icon : "ti-announcement"
-  content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
+- title : "Trainings and Capacity-building"
+  icon : "fas fa-university"
+  content : "KiTRON GREEN INITIATIVES prioritize trainings and capacity-building to empower individuals and organizations with the expertise and skills required to advance sustainable and environmentally friendly practices, driving positive change for a greener world."
 
-- title : "Creative Design"
-  icon : "ti-palette"
-  content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
+- title : "Project Design and Implementation"
+  icon : "fas fa-project-diagram"
+  content : "KiTRON GREEN INITIATIVES excel in project design and implementation, seamlessly integrating sustainable principles to create impactful solutions that address environmental challenges and promote a greener and more sustainable future."
 
 
 ########################### Testimonial ###########################

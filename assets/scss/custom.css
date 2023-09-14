@@ -17,6 +17,7 @@
     color: white;
     font-size: 15px;
 }
+
 @media screen and (max-width: 950px) {
     .img-fluid{
         width: 60px;
@@ -39,3 +40,34 @@
         font-size: 15px;
     } 
 }
+@media screen and (max-width: 969px) {
+	.overlay-shape{
+		display: none;
+	}
+	.bg-blue{
+		background-color: black !important;
+	}
+	.banner-2 .banner-content-2 {
+    padding: 0px 0 100px 0;
+}
+}
+.banner-2 .banner-content-2 {
+    padding: 84px 33px 119px 52px;
+}
+.banner-content-2{
+    background-color: black;
+   
+    color: white;
+}
+#container{
+    opacity: 0.8;
+}
+#banner-button:hover{
+    background-color: #4bbe0d !important;
+    color: white !important;
+}
+/* @media (min-width: 1200px){
+.container {
+    max-width: 1300px;
+}
+} */
