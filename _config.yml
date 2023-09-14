@@ -12,7 +12,7 @@ logo_icon: "/assets/images/logo.png"
 # contact form action
 contact_form_action: "#" # works with https://fomrspree.io
 mailchimp_list: "https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=342411fb35"
-footer_content: "Kitron Green Initiatives is a dynamic nonprofit organization committed to addressing the most critical environmental and sustainability challenges of our time. Established in [Year], our journey has been one of dedication, innovation, and collaboration.  "
+footer_content: "Kitron Green Initiatives is a dynamic nonprofit organization committed to addressing the most critical environmental and sustainability challenges of our time. Established in 2023, our journey has been one of dedication, innovation, and collaboration.  "
 copyright: "KGI. &copy; 2023 All Right Reserved"
 # page header default image
 cover_image: "/assets/images/bg/about-bg.jpg"

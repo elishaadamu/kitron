@@ -6,7 +6,7 @@ tags: technology lifestyle
 categories: [lifestyle]
 author: ecuelass_chapman
 post_image: "/assets/images/blog/blog-15.jpg"
-author: "Themefisher"
+author: "Kitgak Simon"
 featured: true
 ---
 
