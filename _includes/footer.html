@@ -3,7 +3,7 @@
 	<img src="{{'/assets/images/bg/footer-bg.png' | relative_url}}" alt="" class="overlay-shape">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-3 col-md-6">
+			<div class="col-lg-4 col-md-6">
 				<div class="footer-widget  mb-5 mb-lg-0">
 					<h4 class="font-weight-bold text-white mb-3">About Us</h4>
 					{{site.footer_content | markdownify}}
@@ -18,7 +18,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-2 ml-lg-auto mb-5 mb-lg-0 col-md-6">
+			<div class="col-lg-3 ml-lg-auto mb-5 mb-lg-0 col-md-6">
 				<div class="footer-widget">
 					<h4 class="text-white mb-3">Navigation</h4>
 
@@ -29,22 +29,13 @@
 					</ul>
 				</div>
 			</div>		
-			<div class="col-lg-4 col-md-6">
-				<div class="footer-widget  mb-5 mb-lg-0">
-					<h4 class="text-white mb-3">Services</h4>
-					<ul class="list-unstyled lh-38">
-						<li>Research and Development</li>
-						<li>Trainings and Capacity-building</li>
-						<li>Project Design and Implementation</li>						
-					</ul>
-				</div>
-			</div>		
-			<div class="col-lg-2 col-md-6">
+			
+			<div class="col-lg-5 col-md-6">
 				<div class="footer-widget">
 					<h4 class="text-white mb-3">Contact Info</h4>
 					<ul class="list-unstyled lh-38">
 						<li>{{site.address}}</li>
-						<li><a href="tel:{{site.phone}}">{{site.phone}}</a></li>
+						<li><a href="tel:{{site.phone}}">{{site.phone-1}}</a> | <a href="tel:{{site.phone}}">{{site.phone-2}}</a></li>
 						<li style="font-size: 13px;"><a href="mailto:{{site.email}}">{{site.email}}</a></li>
 					</ul>
 				</div>

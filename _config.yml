@@ -2,7 +2,8 @@ baseurl: # the subpath of your site, e.g. /blog
 url: "https://kitrongreeninitiatives.org/" # the base hostname & protocol for your site, e.g. http://example.com or  https://Dizerjk.netlify.com
 title: "KiTRON GREEN INITIATIVES"
 email: "kitrongreeninitiatives@gmail.com"
-phone: "+234 903 277 2384"
+phone-1: "+234 903 277 2384"
+phone-2: '+234 909 563 5518'
 address: "45 Yakubu Gowon Way, Jos, Plateau State, Nigeria"
 author: KiTRON GREEN INITIATIVES
 description: >- # this means to ignore newlines
@@ -31,17 +32,17 @@ cta:
 social:
   - name: facebook
     icon: "ti-facebook"
-    link: "#"
+    link: "https://www.facebook.com/kitronservices"
     color: 	1877F2
 
   - name: twitter
     icon: "ti-twitter-alt"
-    link: "#"
+    link: "https://twitter.com/GreenKgi93576"
     color: 	00acee
 
   - name: linkedin
     icon: "ti-linkedin"
-    link: "#"
+    link: "https://www.linkedin.com/company/eco360pedia/"
     color: 	0072b1
 
   - name: Instagram

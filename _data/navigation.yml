@@ -24,11 +24,13 @@ main:
 
 ########## footer menu ###############
 footer:
-  - name: Services
-    url: /services.html
-  - name: Portfolio One
-    url: /portfolio-1.html
   - name: Contact
+    url: /contact.html
+  - name: Partners
+    url: /contact.html
+  - name: Events
+    url: /contact.html
+  - name: Voluneer
     url: /contact.html
 
 ############## Bottom menu ###############
