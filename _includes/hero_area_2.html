@@ -7,7 +7,7 @@
 			<div class="col-lg-6 col-md-7">
 				<div class="banner-content-2">
 					<h2 class="text-white mt-2">{{ banner.title | strip_html}}</h2>
-					<p class="my-4">{{ banner.content }}</p>
+					<p style="font-weight: bold; color: white;" class="my-4">{{ banner.content }}</p>
 					{% if banner.button.enable %}
 					<a href="{{ banner.button.link | relative_url }}" id="banner-button" class="btn btn-primary">{{ banner.button.label }}</a>
 					{% endif %}
