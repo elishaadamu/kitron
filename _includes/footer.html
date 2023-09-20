@@ -6,7 +6,7 @@
 			<div class="col-lg-4 col-md-6">
 				<div class="footer-widget  mb-5 mb-lg-0">
 					<h4 class="font-weight-bold text-white mb-3">About Us</h4>
-					{{site.footer_content | markdownify}}
+					<p class="about-footer">{{site.footer_content }}</p>
 					<a href="./about.html" style="color: #adaead;">See more</a>
 					<ul class="list-inline socials-links">
 						{% for social in site.social %}
@@ -22,9 +22,9 @@
 				<div class="footer-widget">
 					<h4 class="text-white mb-3">Navigation</h4>
 
-					<ul class="list-unstyled lh-38">
+					<ul class="list-unstyled lh-38 ">
 						{% for menu in site.data.navigation.footer %}
-						<li><a href="{{menu.link | relative_url }}">{{menu.name}}</a></li>
+						<li class="about-footer"><a href="{{menu.link | relative_url }}">{{menu.name}}</a></li>
 						{% endfor %}
 					</ul>
 				</div>
@@ -33,7 +33,7 @@
 			<div class="col-lg-5 col-md-6">
 				<div class="footer-widget">
 					<h4 class="text-white mb-3">Contact Info</h4>
-					<ul class="list-unstyled lh-38">
+					<ul class="list-unstyled lh-38 about-footer">
 						<li>{{site.address}}</li>
 						<li><a href="tel:{{site.phone}}">{{site.phone-1}}</a> | <a href="tel:{{site.phone}}">{{site.phone-2}}</a></li>
 						<li style="font-size: 13px;"><a href="mailto:{{site.email}}">{{site.email-1}}</a></li>
