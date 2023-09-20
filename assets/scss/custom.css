@@ -47,6 +47,9 @@
 	.overlay-shape{
 		display: none;
 	}
+    #mc_embed_shell{
+        width: 100%;
+    }
 	.bg-blue{
 		background-color: black !important;
 	}
@@ -98,6 +101,9 @@
 .post-content{
     margin: 20px;
 }
+#mc_embed_shell{
+    width: 70%;
+}
 }
 .about-footer{
     color: aliceblue;
@@ -132,4 +138,6 @@
 }
 #mc_embed_shell{
     border: 1px solid #6bc23c !important;
+    margin-top: 20px;
+    border-radius: 5px;
 }
