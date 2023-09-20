@@ -45,8 +45,9 @@
 }
 @media screen and (max-width: 969px) {
 	.overlay-shape{
-		display: none;
+        object-fit: cover;
 	}
+
     #mc_embed_shell{
         width: 100%;
     }
