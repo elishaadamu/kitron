@@ -50,6 +50,9 @@
 	.banner-2 .banner-content-2 {
     padding: 0px 0 100px 0;
 }
+.post-content{
+    margin: 20px;
+}
 }
 .banner-2 .banner-content-2 {
     padding: 84px 33px 119px 52px;
@@ -81,5 +84,12 @@
 @media (min-width: 992px){
 .container {
     max-width: 1070px;
+}
+.google-map{
+    width: 80%;
+    margin-left: 100px;
+}
+.post-content{
+    margin: 20px;
 }
 }

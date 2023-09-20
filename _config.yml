@@ -1,7 +1,7 @@
 baseurl: # the subpath of your site, e.g. /blog
 url: "https://kitrongreeninitiatives.org/" # the base hostname & protocol for your site, e.g. http://example.com or  https://Dizerjk.netlify.com
 title: "KiTRON GREEN INITIATIVES"
-email: "kitrongreeninitiatives@gmail.com"
+email-1: "kitrongreeninitiatives@gmail.com"
 phone-1: "+234 903 277 2384"
 phone-2: '+234 909 563 5518'
 address: "45 Yakubu Gowon Way, Jos, Plateau State, Nigeria"
@@ -11,7 +11,7 @@ description: >- # this means to ignore newlines
 logo: "/assets/images/1694776972726_wvseiy_2_0-removebg-preview.png"
 logo_icon: "/assets/images/1694776972726_wvseiy_2_0-removebg-preview.png"
 # contact form action
-contact_form_action: "#" # works with https://fomrspree.io
+contact_form_action: "https://formspree.io/f/mpzgyred" # works with https://fomrspree.io
 mailchimp_list: "https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=342411fb35"
 footer_content: "Kitron Green Initiatives is a dynamic nonprofit organization committed to addressing the most critical environmental and sustainability challenges of our time. Established in 2023, our journey has been one of dedication, innovation, and collaboration.  "
 copyright: "KGI. &copy; 2023 All Right Reserved"
