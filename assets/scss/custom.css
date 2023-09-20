@@ -5,8 +5,11 @@
 }
 .image-slogan{
     font-size: 10px;
+    color: white;
     font-style: italic;
-    margin-left: 10px;
+    font-weight: bold;
+    margin-left: 40px;
+
 }
 .image-flex{
     display: flex;
@@ -98,4 +101,8 @@
 }
 .about-footer{
     color: aliceblue;
+}
+
+.author-bio{
+    font-size: 13px !important;
 }
