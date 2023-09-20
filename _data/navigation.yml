@@ -17,8 +17,7 @@ main:
     submenu:
       - name: Services
         url: /services.html
-      - name: Portfolio
-        url: /portfolio-1.html
+        
   - name: Contact
     url: /contact.html
 
