@@ -23,14 +23,16 @@ main:
 
 ########## footer menu ###############
 footer:
-  - name: Contact
-    url: /contact.html
   - name: Partners
     url: /contact.html
   - name: Events
     url: /contact.html
   - name: Voluneer
     url: /contact.html
+  - name: Blog
+    url: /blog-1.html
+  - name: Services
+    url: /services.html
 
 ############## Bottom menu ###############
 bottom:
