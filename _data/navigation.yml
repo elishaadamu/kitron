@@ -6,8 +6,8 @@ main:
   - name: About Us
     url: /about.html
 
-  - name: Initiatives
-    url: /initiatives.html
+  - name: Portfolio
+    url: /portfolio-1.html
 
   - name: Blog
     url: /blog-1.html
