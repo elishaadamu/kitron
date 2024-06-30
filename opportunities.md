@@ -1,8 +1,9 @@
 ---
 layout: default
 header_image: "/assets/images/bg/blog-bg.jpg"
-title: "Our Blog"
+title: "Youth Opportunities"
 description: ""
+permalink: /youth-opportunities
 ---
 
 {% include page_header.html %}
@@ -10,7 +11,7 @@ description: ""
 <section class="section">
 	<div class="container">
 		<div class="row justify-content-center">
-			{% for post in site.posts %}
+			{% for post in site.opportunities %}
 			<div class="col-lg-4 col-md-6">
 				<div class="blog-item mb-5">
 					{% if post.post_image %}

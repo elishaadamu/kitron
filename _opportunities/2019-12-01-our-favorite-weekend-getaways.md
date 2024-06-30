@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Our Favorite Weekend Getaways"
+title: "Hello B"
 date: 2019-12-01 20:37:13 +0600
 tags: technology lifestyle
 categories: [lifestyle]
