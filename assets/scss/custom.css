@@ -251,3 +251,7 @@
     object-fit: cover;
     filter: brightness(0.5);
 }
+.banner-2 .banner-content-2 {
+    padding: 84px 33px 119px 52px;
+    margin-bottom: 100px;
+}
