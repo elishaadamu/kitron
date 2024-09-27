@@ -246,3 +246,8 @@
 .primary-color{
     color: #1f1f40 !important;
 }
+
+.overlay-shape{
+    object-fit: cover;
+    filter: brightness(0.5);
+}
