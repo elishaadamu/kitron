@@ -255,3 +255,10 @@
     padding: 84px 33px 119px 52px;
     margin-bottom: 100px;
 }
+.team-member{
+    object-fit: cover;
+}
+.icons-social{
+    margin: 20px;
+    font-size: 20px;
+}

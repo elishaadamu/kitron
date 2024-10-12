@@ -11,6 +11,7 @@
 .counter-section {
   display: flex;
   justify-content: space-around;
+  flex-direction: row;
   margin: 50px 0;
   text-align: center;
 }
@@ -31,6 +32,25 @@
     color: #6bc23c;
     font-size: x-large;
 }
+@media screen and (max-width: 1024px) {
+.impact{
+    background-image: url("/assets/images/bg/footer-bg.png");
+    background-color: #1f1f40;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: left;
+    padding: 50px 20px 50px 20px;
+    margin-bottom: 50px;
+}
+.counter-section {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 50px 0;
+  text-align: center;
+  gap: 50px;
+}
+}
 </style>
 
 
@@ -44,11 +64,11 @@
         </div>
         <div class="counter-item">
           <h3>Number of People Impacted</h3>
-          <div class="counter" data-target="5000">0</div>
+          <div class="counter" data-target="5200">0</div>
         </div>
         <div class="counter-item">
-          <h3>Target to be Reached</h3>
-          <div class="counter" data-target="10000">0</div>
+          <h3>People Reached in 2023</h3>
+          <div class="counter" data-target="2300">0</div>
         </div>
 </div>
       
@@ -66,14 +86,25 @@ const animateCounters = () => {
       const increment = target / speed;
 
       if(count < target) {
-        counter.innerText = Math.ceil(count + increment);
-        setTimeout(updateCount, 30);
+        counter.innerText = formatNumber(Math.ceil(count + increment));
+        setTimeout(updateCount, 25);
       } else {
-        counter.innerText = target;
+        counter.innerText = formatNumber(target); // Format the final number
       }
     };
     updateCount();
   });
+};
+
+// Number formatting function to add "k" or "M"
+const formatNumber = (num) => {
+  if (num >= 1000000) {
+    return (num / 1000000).toFixed(1) + 'M+'; // For millions
+  } else if (num >= 1000) {
+    return (num / 1000).toFixed(1) + 'k+'; // For thousands
+  } else {
+    return num; // For numbers less than 1000, return the number as-is
+  }
 };
 
 // Use an IntersectionObserver to trigger counting only when the section is visible
@@ -86,6 +117,7 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.5 });
 
 observer.observe(counterSection);
+
 
 
   </script>
