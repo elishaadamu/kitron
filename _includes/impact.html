@@ -1,0 +1,92 @@
+<style>
+.impact{
+    background-image: url("/assets/images/bg/footer-bg.png");
+    background-color: #1f1f40;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: left;
+    padding: 50px 70px 50px 70px;
+    margin-bottom: 50px;
+}
+.counter-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.counter-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.counter {
+  font-size: 2em;
+  color: #6bc23c;
+}
+.impact-header{
+    text-transform: uppercase;
+    text-align: center;
+    color: #6bc23c;
+    font-size: x-large;
+}
+</style>
+
+
+<div class="impact">
+    <h3 class="impact-header">Kitron Green Initiative: Impact till Date</h3>
+
+<div class="counter-section">
+        <div class="counter-item">
+          <h3>Countries Reached</h3>
+          <div class="counter" data-target="6">0</div>
+        </div>
+        <div class="counter-item">
+          <h3>Number of People Impacted</h3>
+          <div class="counter" data-target="5000">0</div>
+        </div>
+        <div class="counter-item">
+          <h3>Target to be Reached</h3>
+          <div class="counter" data-target="10000">0</div>
+        </div>
+</div>
+      
+</div>
+
+  <script>
+   const counters = document.querySelectorAll('.counter');
+const speed = 200; // Adjust to control speed of counting
+
+const animateCounters = () => {
+  counters.forEach(counter => {
+    const updateCount = () => {
+      const target = +counter.getAttribute('data-target');
+      const count = +counter.innerText;
+      const increment = target / speed;
+
+      if(count < target) {
+        counter.innerText = Math.ceil(count + increment);
+        setTimeout(updateCount, 30);
+      } else {
+        counter.innerText = target;
+      }
+    };
+    updateCount();
+  });
+};
+
+// Use an IntersectionObserver to trigger counting only when the section is visible
+const counterSection = document.querySelector('.counter-section');
+const observer = new IntersectionObserver((entries) => {
+  if (entries[0].isIntersecting) {
+    animateCounters();
+    observer.unobserve(counterSection); // Run only once when in view
+  }
+}, { threshold: 0.5 });
+
+observer.observe(counterSection);
+
+
+  </script>
+  
