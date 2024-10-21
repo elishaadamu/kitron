@@ -77,6 +77,9 @@
     align-items: center;
     margin-left: -16px;
 }
+.testimonial .card {
+    height: 700px !important;
+}
 }
 .banner-2 .banner-content-2 {
     padding: 84px 33px 119px 52px;
