@@ -2,7 +2,7 @@
 layout: post
 title: "The Unsung Heroes: The Role of Teachers in Promoting Climate Education"
 date: 2023-10-06 13:03:13 +0600
-tags: education climate-action
+tags: education
 categories: [education]
 post_image: "/assets/images/blog/good-teacher.jpeg"
 author: "Kitgak Simon"

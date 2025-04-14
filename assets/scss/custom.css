@@ -265,25 +265,3 @@ button {
   margin: 20px;
   font-size: 20px;
 }
-.post-content img {
-  width: 100%;
-}
-.img-para {
-  margin: 30px 0px;
-  width: 100%;
-}
-.img-para p {
-  text-align: center;
-  font-size: small;
-}
-
-.footer-read-more {
-  color: white;
-  width: 150px;
-  height: 50px;
-  background-color: #4bbe0d;
-  border-radius: 15px;
-}
-.footer-read-more:hover {
-  background-color: #72c844;
-}

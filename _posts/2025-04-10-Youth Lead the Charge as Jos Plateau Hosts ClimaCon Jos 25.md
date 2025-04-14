@@ -2,7 +2,7 @@
 layout: post
 title: "Youth Lead the Charge as Jos, Plateau Hosts “ClimaCon Jos ” 25"
 date: 2025-04-10 20:37:13 +0600
-tags: youth climate
+tags: youth
 categories: [climate]
 post_image: "/assets/images/blog/Youth Lead the Charge as Jos, Plateau Hosts.jpg"
 author: "Kitgak Simon"

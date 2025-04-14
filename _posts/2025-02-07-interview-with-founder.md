@@ -2,7 +2,7 @@
 layout: post
 title: "INTERVIEW: Meet Kitgak Simon, a Queen Elizabeth Prize for Engineering ambassador and founder of Kitron Green Initiative Hub"
 date: 2025-02-07 20:37:13 +0600
-tags: technology Interview Young-CEO
+tags: Young-CEO
 categories: [Interview]
 author: Elisha Adamu
 post_image: "/assets/images/interview-founder/IMG-20250201-WA0016_1-772x560.jpg"
