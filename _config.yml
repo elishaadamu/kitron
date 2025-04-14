@@ -1,7 +1,7 @@
 baseurl: # the subpath of your site, e.g. /blog
 url: "https://kitrongreeninitiatives.org/" # the base hostname & protocol for your site, e.g. http://example.com or  https://Dizerjk.netlify.com
 title: "KiTRON GREEN INITIATIVES"
-email-1: "kitrongreeninitiatives@gmail.com"
+email-1: "info@kitrongreeninitiatives.org"
 phone-1: "+234 903 277 2384"
 phone-2: '+234 909 563 5518'
 address: "45 Yakubu Gowon Way, Jos, Plateau State, Nigeria"
@@ -14,7 +14,7 @@ logo_icon: "/assets/images/1694776972726_wvseiy_2_0-removebg-preview.png"
 contact_form_action: "https://formspree.io/f/mpzgyred" # works with https://fomrspree.io
 mailchimp_list: "https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=342411fb35"
 footer_content: "Kitron Green Initiatives is a dynamic nonprofit organization committed to addressing the most critical environmental and sustainability challenges of our time. Established in 2023, our journey has been one of dedication, innovation, and collaboration.  "
-copyright: "KGI. &copy; 2023 All Right Reserved"
+copyright: "KGI. &copy; 2025 All Right Reserved"
 # page header default image
 cover_image: "/assets/images/bg/about-bg.jpg"
 google_map_api: "https://maps.googleapis.com/maps/api/js?key=AIzaSyDnh74UN6BKgq9U5fMNGhdZOSpmM_QnZqs"
@@ -23,7 +23,7 @@ google_map_api: "https://maps.googleapis.com/maps/api/js?key=AIzaSyDnh74UN6BKgq9
 cta:
   enable: true
   title: "Support Our Mission Through Donations"
-  bg_image: "/assets/images/bg/cta-bg-2.png"
+  bg_image: "/assets/images/bg/bg-5.jpg"
   button:
     label: "Donate Now"
     link: "donations"

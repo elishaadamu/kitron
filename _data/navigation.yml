@@ -2,7 +2,7 @@
 main:
   - name: Home
     url: /index.html
-    
+
   - name: About Us
     url: /about.html
 
@@ -12,12 +12,12 @@ main:
   - name: Blog
     url: /blog-1.html
 
-  - name: Pages
-    url: /
-    submenu:
-      - name: Youth Opportunities
-        url: /youth-opportunities.html
-        
+  # - name: Pages
+  #   url: /
+  #   submenu:
+  #     - name: Youth Opportunities
+  #       url: /youth-opportunities.html
+
   - name: Contact
     url: /contact.html
 
@@ -32,7 +32,7 @@ footer:
   - name: Services
     url: /services.html
   - name: Resources
-    url: 
+    url:
 
 ############## Bottom menu ###############
 bottom:
